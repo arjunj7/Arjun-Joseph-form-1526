@@ -1,0 +1,51 @@
+body {
+    margin: 0, auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    border: 1px #DDD solid;
+}
+
+legend {
+    font-size: 2rem;
+    float: left;
+    font-family: 'Oxygen', sans-serif;
+    border: 1px #DDD solid;
+    padding: 14px;
+}
+
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 2px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+
+input[type=text]:focus {
+    background-color: #F5F5F5; 
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #6495ED;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
